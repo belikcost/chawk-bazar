@@ -1,13 +1,12 @@
 import SearchIcon from "@components/icons/search-icon";
 import React from "react";
 import { useTranslation } from "next-i18next";
-import { IoCloseOutline } from "react-icons/io5";
+
 type SearchProps = {
 	className?: string;
 	onSubmit: (e: React.SyntheticEvent) => void;
 	onClear: (e: React.SyntheticEvent) => void;
 	onChange: (e: React.FormEvent<HTMLInputElement>) => void;
-	name: string;
 	value: string;
 };
 
@@ -35,13 +34,6 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
 						{...rest}
 					/>
 				</label>
-				<button
-					type="button"
-					className="outline-none text-2xl md:text-3xl text-gray-400 absolute top-0 end-0 w-12 md:w-14 h-full flex items-center justify-center transition duration-200 ease-in-out hover:text-heading focus:outline-none"
-					onClick={onClear}
-				>
-					<IoCloseOutline className="w-6 h-6" />
-				</button>
 			</form>
 		);
 	}

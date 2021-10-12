@@ -59,14 +59,17 @@
 	#siteHeader.is-scrolling .innerSticky {
 		@apply shadow-header;
 	}
-	.headerMenu .menuItem > a::before {
-		@apply absolute end-0 w-0 bg-heading -bottom-7;
-		content: "";
-		height: 3px;
-		transition: all 0.3s ease-in-out 0s;
+	.headerMenu {
+		max-height: 87vh;
 	}
-	.megaMenu,
+	.menuCol {
+		overflow-y: auto;
+	}
 	.subMenu {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.megaMenu {
 		visibility: hidden;
 		transition: all 0.4s;
 		top: calc(100% + 25px);

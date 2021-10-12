@@ -1,67 +1,57 @@
+import {useState} from "react";
 import Link from "@components/ui/link";
-import { FaChevronDown } from "react-icons/fa";
-import MegaMenu from "@components/ui/mega-menu";
 import classNames from "classnames";
-import ListMenu from "@components/ui/list-menu";
-import { useTranslation } from "next-i18next";
+import {IoClose} from "react-icons/io5";
 
 interface MenuProps {
-	data: any;
-	className?: string;
+    data: any;
+    className?: string;
+    closeMenu: () => void;
 }
 
-const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
-	const { t } = useTranslation("menu");
-	return (
-		<nav className={classNames(`headerMenu flex w-full relative`, className)}>
-			{data?.map((item: any) => (
-				<div
-					className={`menuItem group cursor-pointer py-7 ${
-						item.subMenu ? "relative" : ""
-					}`}
-					key={item.id}
-				>
-					<Link
-						href={item.path}
-						className="inline-flex items-center text-sm xl:text-base text-heading px-3 xl:px-4 py-2 font-normal relative group-hover:text-black"
-					>
-						{t(item.label)}
-						{(item?.columns || item.subMenu) && (
-							<span className="opacity-30 text-xs mt-1 xl:mt-0.5 w-4 flex justify-end">
-								<FaChevronDown className="transition duration-300 ease-in-out transform group-hover:-rotate-180" />
-							</span>
-						)}
-					</Link>
 
-					{item?.columns && Array.isArray(item.columns) && (
-						<MegaMenu columns={item.columns} />
-					)}
+const HeaderMenu: React.FC<MenuProps> = ({data, className, closeMenu}) => {
+    const [showCategory, setShowCategory] = useState(data[0].id);
 
-					{item?.subMenu && Array.isArray(item.subMenu) && (
-						<div className="subMenu shadow-header bg-gray-200 absolute start-0 opacity-0 group-hover:opacity-100">
-							<ul className="text-body text-sm py-5">
-								{item.subMenu.map((menu: any, index: number) => {
-									const dept: number = 1;
-									const menuName: string = `sidebar-menu-${dept}-${index}`;
+    const getShowCategory = (id: number) => {
+        return data.find((item: { id: number; }) => item.id === id);
+    }
 
-									return (
-										<ListMenu
-											dept={dept}
-											data={menu}
-											hasSubMenu={menu.subMenu}
-											menuName={menuName}
-											key={menuName}
-											menuIndex={index}
-										/>
-									);
-								})}
-							</ul>
-						</div>
-					)}
-				</div>
-			))}
-		</nav>
-	);
+    return (
+        <nav className={classNames(`headerMenu flex w-full absolute bg-white`, className)}>
+            <div className="flex flex-col max-h-full menuCol">
+                {data?.map((item: any) => (
+                    <div
+                        className="menuItem cursor-pointer"
+                        onMouseEnter={() => setShowCategory(item.id)}
+                        key={item.id}
+                    >
+                        <Link
+                            href={item.slug}
+                            className="inline-flex items-center text-sm xl:text-base text-heading px-3 xl:px-4 py-2 font-normal relative"
+                        >
+                            <img className="w-7 mr-1.5" src={item.image} alt={item.name}/>
+                            {item.name}
+                        </Link>
+                    </div>
+                ))}
+            </div>
+            <div className="flex flex-col px-10 py-5">
+                {getShowCategory(showCategory).parentcategory.map((category: any) => (
+                    <Link href={category.slug} key={category.id} className="hover:text-black">
+                        {category.name}
+                    </Link>
+                ))}
+            </div>
+            <button
+                className="flex absolute top-0 right-0 px-5 text-2xl items-center justify-center text-gray-500 focus:outline-none transition-opacity hover:opacity-60"
+                onClick={closeMenu}
+                aria-label="close"
+            >
+                <IoClose className="text-black mt-1 md:mt-0.5" />
+            </button>
+        </nav>
+    );
 };
 
 export default HeaderMenu;

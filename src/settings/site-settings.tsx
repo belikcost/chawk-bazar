@@ -23,1541 +23,980 @@ export const siteSettings = {
 	defaultLanguage: "en",
 	currencyCode: "USD",
 	site_header: {
-		menu: [
-			{
-				id: 1,
-				path: "/",
-				label: "menu-demos",
-				subMenu: [
-					{
-						id: 1,
-						path: "/",
-						label: "menu-modern",
-					},
-					{
-						id: 2,
-						path: "/standard",
-						label: "menu-standard",
-					},
-					{
-						id: 3,
-						path: "/minimal",
-						label: "menu-minimal",
-					},
-					{
-						id: 4,
-						path: "/vintage",
-						label: "menu-vintage",
-					},
-					{
-						id: 5,
-						path: "/classic",
-						label: "menu-classic",
-					},
-					{
-						id: 6,
-						path: "/trendy",
-						label: "menu-trendy",
-					},
-				],
-			},
-			{
-				id: 2,
-				path: "/search?q=men-wear",
-				label: "menu-men-wear",
-				columns: [
-					{
-						id: 1,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=top-wear",
-								label: "menu-top-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=t-shit-shirtrt",
-										label: "menu-t-shirt",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shirts",
-										label: "menu-casual-shirts",
-									},
-									{
-										id: 3,
-										path: "/search?q=formal-shirts",
-										label: "menu-formal-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=blazwers-coats",
-										label: "menu-blazwers-coats",
-									},
-									{
-										id: 5,
-										path: "/search?q=suits",
-										label: "menu-suits",
-									},
-									{
-										id: 6,
-										path: "/search?q=jackets",
-										label: "menu-jackets",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-							},
-							{
-								id: 3,
-								path: "/search?q=watches-wearables",
-								label: "menu-watches-wearables",
-							},
-						],
-					},
-					{
-						id: 2,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=western-wear",
-								label: "menu-western-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=dresses",
-										label: "menu-dresses",
-									},
-									{
-										id: 2,
-										path: "/search?q=jumpsuits",
-										label: "menu-jumpsuits",
-									},
-									{
-										id: 3,
-										path: "/search?q=tops-t-shirt",
-										label: "menu-tops-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=shorts-skirts",
-										label: "menu-shorts-skirts",
-									},
-									{
-										id: 5,
-										path: "/search?q=shurgs",
-										label: "menu-shurgs",
-									},
-									{
-										id: 6,
-										path: "/search?q=blazers",
-										label: "menu-blazers",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=plus-size",
-								label: "menu-plus-size",
-							},
-							{
-								id: 3,
-								path: "/search?q=sunglasses-frames",
-								label: "menu-sunglasses-frames",
-							},
-						],
-					},
-					{
-						id: 3,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=flats",
-										label: "menu-flats",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shoes",
-										label: "menu-casual-shoes",
-									},
-									{
-										id: 3,
-										path: "/search?q=heels",
-										label: "menu-heels",
-									},
-									{
-										id: 4,
-										path: "/search?q=boots",
-										label: "menu-boots",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=sports-active-wear",
-								label: "menu-sports-active-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=clothing",
-										label: "menu-clothing",
-									},
-									{
-										id: 2,
-										path: "/search?q=footwear",
-										label: "menu-footwear",
-									},
-									{
-										id: 3,
-										path: "/search?q=sports-accessories",
-										label: "menu-sports-accessories",
-									},
-								],
-							},
-						],
-					},
-					{
-						id: 4,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=lingerie-sleepwear",
-								label: "menu-lingerie-sleepwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=bra",
-										label: "menu-bra",
-									},
-									{
-										id: 2,
-										path: "/search?q=briefs",
-										label: "menu-briefs",
-									},
-									{
-										id: 3,
-										path: "/search?q=sleepwear",
-										label: "menu-sleepwear",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=makeup",
-										label: "menu-makeup",
-									},
-									{
-										id: 2,
-										path: "/search?q=skincare",
-										label: "menu-skincare",
-									},
-									{
-										id: 3,
-										path: "/search?q=premium-beauty",
-										label: "menu-premium-beauty",
-									},
-									{
-										id: 4,
-										path: "/search?q=lipsticks",
-										label: "menu-lipsticks",
-									},
-								],
-							},
-						],
-					},
-					{
-						id: 5,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=gadgets",
-								label: "menu-gadgets",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=smart-wearables",
-										label: "menu-smart-wearables",
-									},
-									{
-										id: 2,
-										path: "/search?q=headphones",
-										label: "menu-headphones",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=jewellers",
-								label: "menu-jewellers",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=fashion-jewellers",
-										label: "menu-fashion-jewellers",
-									},
-									{
-										id: 2,
-										path: "/search?q=fine-jewellers",
-										label: "menu-fine-jewellers",
-									},
-								],
-							},
-							{
-								id: 3,
-								path: "/search?q=backpacks",
-								label: "menu-backpacks",
-							},
-							{
-								id: 4,
-								path: "/search?q=handbags-wallets",
-								label: "menu-handbags-wallets",
-							},
-						],
-					},
-				],
-			},
-			{
-				id: 3,
-				path: "/search?q=women-wear",
-				label: "menu-women-wear",
-				columns: [
-					{
-						id: 1,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=gadgets",
-								label: "menu-gadgets",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=smart-wearables",
-										label: "menu-smart-wearables",
-									},
-									{
-										id: 2,
-										path: "/search?q=headphones",
-										label: "menu-headphones",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=jewellers",
-								label: "menu-jewellers",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=fashion-jewellers",
-										label: "menu-fashion-jewellers",
-									},
-									{
-										id: 2,
-										path: "/search?q=fine-jewellers",
-										label: "menu-fine-jewellers",
-									},
-								],
-							},
-							{
-								id: 3,
-								path: "/search?q=backpacks",
-								label: "menu-backpacks",
-							},
-							{
-								id: 4,
-								path: "/search?q=handbags-wallets",
-								label: "menu-handbags-wallets",
-							},
-						],
-					},
-					{
-						id: 2,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=top-wear",
-								label: "menu-top-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=t-shit-shirtrt",
-										label: "menu-t-shirt",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shirts",
-										label: "menu-casual-shirts",
-									},
-									{
-										id: 3,
-										path: "/search?q=formal-shirts",
-										label: "menu-formal-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=blazwers-coats",
-										label: "menu-blazwers-coats",
-									},
-									{
-										id: 5,
-										path: "/search?q=suits",
-										label: "menu-suits",
-									},
-									{
-										id: 6,
-										path: "/search?q=jackets",
-										label: "menu-jackets",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-							},
-							{
-								id: 3,
-								path: "/search?q=watches-wearables",
-								label: "menu-watches-wearables",
-							},
-						],
-					},
-					{
-						id: 3,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=flats",
-										label: "menu-flats",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shoes",
-										label: "menu-casual-shoes",
-									},
-									{
-										id: 3,
-										path: "/search?q=heels",
-										label: "menu-heels",
-									},
-									{
-										id: 4,
-										path: "/search?q=boots",
-										label: "menu-boots",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=sports-active-wear",
-								label: "menu-sports-active-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=clothing",
-										label: "menu-clothing",
-									},
-									{
-										id: 2,
-										path: "/search?q=footwear",
-										label: "menu-footwear",
-									},
-									{
-										id: 3,
-										path: "/search?q=sports-accessories",
-										label: "menu-sports-accessories",
-									},
-								],
-							},
-						],
-					},
-					{
-						id: 4,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=western-wear",
-								label: "menu-western-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=dresses",
-										label: "menu-dresses",
-									},
-									{
-										id: 2,
-										path: "/search?q=jumpsuits",
-										label: "menu-jumpsuits",
-									},
-									{
-										id: 3,
-										path: "/search?q=tops-t-shirt",
-										label: "menu-tops-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=shorts-skirts",
-										label: "menu-shorts-skirts",
-									},
-									{
-										id: 5,
-										path: "/search?q=shurgs",
-										label: "menu-shurgs",
-									},
-									{
-										id: 6,
-										path: "/search?q=blazers",
-										label: "menu-blazers",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=plus-size",
-								label: "menu-plus-size",
-							},
-							{
-								id: 3,
-								path: "/search?q=sunglasses-frames",
-								label: "menu-sunglasses-frames",
-							},
-						],
-					},
-					{
-						id: 5,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=lingerie-sleepwear",
-								label: "menu-lingerie-sleepwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=bra",
-										label: "menu-bra",
-									},
-									{
-										id: 2,
-										path: "/search?q=briefs",
-										label: "menu-briefs",
-									},
-									{
-										id: 3,
-										path: "/search?q=sleepwear",
-										label: "menu-sleepwear",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=makeup",
-										label: "menu-makeup",
-									},
-									{
-										id: 2,
-										path: "/search?q=skincare",
-										label: "menu-skincare",
-									},
-									{
-										id: 3,
-										path: "/search?q=premium-beauty",
-										label: "menu-premium-beauty",
-									},
-									{
-										id: 4,
-										path: "/search?q=lipsticks",
-										label: "menu-lipsticks",
-									},
-								],
-							},
-						],
-					},
-				],
-			},
-			{
-				id: 4,
-				path: "/search?q=casual-wear",
-				label: "menu-casual-wear",
-				columns: [
-					{
-						id: 1,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=gadgets",
-								label: "menu-gadgets",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=smart-wearables",
-										label: "menu-smart-wearables",
-									},
-									{
-										id: 2,
-										path: "/search?q=headphones",
-										label: "menu-headphones",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=jewellers",
-								label: "menu-jewellers",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=fashion-jewellers",
-										label: "menu-fashion-jewellers",
-									},
-									{
-										id: 2,
-										path: "/search?q=fine-jewellers",
-										label: "menu-fine-jewellers",
-									},
-								],
-							},
-							{
-								id: 3,
-								path: "/search?q=backpacks",
-								label: "menu-backpacks",
-							},
-							{
-								id: 4,
-								path: "/search?q=handbags-wallets",
-								label: "menu-handbags-wallets",
-							},
-						],
-					},
-					{
-						id: 2,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=top-wear",
-								label: "menu-top-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=t-shit-shirtrt",
-										label: "menu-t-shirt",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shirts",
-										label: "menu-casual-shirts",
-									},
-									{
-										id: 3,
-										path: "/search?q=formal-shirts",
-										label: "menu-formal-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=blazwers-coats",
-										label: "menu-blazwers-coats",
-									},
-									{
-										id: 5,
-										path: "/search?q=suits",
-										label: "menu-suits",
-									},
-									{
-										id: 6,
-										path: "/search?q=jackets",
-										label: "menu-jackets",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-							},
-							{
-								id: 3,
-								path: "/search?q=watches-wearables",
-								label: "menu-watches-wearables",
-							},
-						],
-					},
-					{
-						id: 3,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=flats",
-										label: "menu-flats",
-									},
-									{
-										id: 2,
-										path: "/search?q=casual-shoes",
-										label: "menu-casual-shoes",
-									},
-									{
-										id: 3,
-										path: "/search?q=heels",
-										label: "menu-heels",
-									},
-									{
-										id: 4,
-										path: "/search?q=boots",
-										label: "menu-boots",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=sports-active-wear",
-								label: "menu-sports-active-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=clothing",
-										label: "menu-clothing",
-									},
-									{
-										id: 2,
-										path: "/search?q=footwear",
-										label: "menu-footwear",
-									},
-									{
-										id: 3,
-										path: "/search?q=sports-accessories",
-										label: "menu-sports-accessories",
-									},
-								],
-							},
-						],
-					},
-					{
-						id: 4,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=western-wear",
-								label: "menu-western-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=dresses",
-										label: "menu-dresses",
-									},
-									{
-										id: 2,
-										path: "/search?q=jumpsuits",
-										label: "menu-jumpsuits",
-									},
-									{
-										id: 3,
-										path: "/search?q=tops-t-shirt",
-										label: "menu-tops-shirts",
-									},
-									{
-										id: 4,
-										path: "/search?q=shorts-skirts",
-										label: "menu-shorts-skirts",
-									},
-									{
-										id: 5,
-										path: "/search?q=shurgs",
-										label: "menu-shurgs",
-									},
-									{
-										id: 6,
-										path: "/search?q=blazers",
-										label: "menu-blazers",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=plus-size",
-								label: "menu-plus-size",
-							},
-							{
-								id: 3,
-								path: "/search?q=sunglasses-frames",
-								label: "menu-sunglasses-frames",
-							},
-						],
-					},
-					{
-						id: 5,
-						columnItems: [
-							{
-								id: 1,
-								path: "/search?q=lingerie-sleepwear",
-								label: "menu-lingerie-sleepwear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=bra",
-										label: "menu-bra",
-									},
-									{
-										id: 2,
-										path: "/search?q=briefs",
-										label: "menu-briefs",
-									},
-									{
-										id: 3,
-										path: "/search?q=sleepwear",
-										label: "menu-sleepwear",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=makeup",
-										label: "menu-makeup",
-									},
-									{
-										id: 2,
-										path: "/search?q=skincare",
-										label: "menu-skincare",
-									},
-									{
-										id: 3,
-										path: "/search?q=premium-beauty",
-										label: "menu-premium-beauty",
-									},
-									{
-										id: 4,
-										path: "/search?q=lipsticks",
-										label: "menu-lipsticks",
-									},
-								],
-							},
-						],
-					},
-				],
-			},
-			{
-				id: 5,
-				path: "/search",
-				label: "menu-search",
-			},
-			{
-				id: 6,
-				path: "/",
-				label: "menu-pages",
-				subMenu: [
-					{
-						id: 1,
-						path: "/",
-						label: "menu-users",
-						subMenu: [
-							{
-								id: 1,
-								path: "/my-account",
-								label: "menu-my-account",
-							},
-							{
-								id: 2,
-								path: "/signin",
-								label: "menu-sign-in",
-							},
-							{
-								id: 3,
-								path: "/signup",
-								label: "menu-sign-up",
-							},
-							{
-								id: 4,
-								path: "/forget-password",
-								label: "menu-forget-password",
-							},
-						],
-					},
-					{
-						id: 2,
-						path: "/faq",
-						label: "menu-faq",
-					},
-					{
-						id: 3,
-						path: "/privacy",
-						label: "menu-privacy-policy",
-					},
-					{
-						id: 4,
-						path: "/terms",
-						label: "menu-terms-condition",
-					},
-					{
-						id: 5,
-						path: "/contact-us",
-						label: "menu-contact-us",
-					},
-					{
-						id: 6,
-						path: "/checkout",
-						label: "menu-checkout",
-					},
-					{
-						id: 7,
-						path: "/collections/mens-collection",
-						label: "menu-collection",
-					},
-					{
-						id: 8,
-						path: "/category/man",
-						label: "menu-category",
-					},
-					{
-						id: 9,
-						path: "/order",
-						label: "menu-order",
-					},
-					{
-						id: 10,
-						path: "/404",
-						label: "menu-404",
-					},
-				],
-			},
-		],
+		menu:
+			[
+				{
+					"id": 7877999,
+					"name": "Одежда обувь и аксессуары",
+					"slug": "/category/odejda-obuv-i-aksessuary",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4353087/img_id2986315233125047087.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 7812191,
+							"name": "Обувь",
+							"slug": "/category/odejda-obuv-i-aksessuary/obuv"
+						},
+						{
+							"id": 7811873,
+							"name": "Женская одежда",
+							"slug": "/category/odejda-obuv-i-aksessuary/jenskaya-odejda"
+						},
+						{
+							"id": 7811877,
+							"name": "Мужская одежда",
+							"slug": "/category/odejda-obuv-i-aksessuary/mujskaya-odejda"
+						},
+						{
+							"id": 7811879,
+							"name": "Детская одежда",
+							"slug": "/category/odejda-obuv-i-aksessuary/detskaya-odejda"
+						},
+						{
+							"id": 7811881,
+							"name": "Аксессуары",
+							"slug": "/category/odejda-obuv-i-aksessuary/aksessuary"
+						}
+					]
+				},
+				{
+					"id": 198119,
+					"name": "Электроника",
+					"slug": "/category/elektronika",
+					"image": "https://avatars.mds.yandex.net/get-mpic/2002045/img_id4763639341065916094.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 4976480,
+							"name": "Оптические приборы",
+							"slug": "/category/elektronika/opticheskie-pribory"
+						},
+						{
+							"id": 1558993,
+							"name": "Игровые приставки",
+							"slug": "/category/elektronika/igrovye-pristavki"
+						},
+						{
+							"id": 995785,
+							"name": "GPSнавигация",
+							"slug": "/category/elektronika/gps-navigaciya"
+						},
+						{
+							"id": 944108,
+							"name": "Портативная техника",
+							"slug": "/category/elektronika/portativnaya-tehnika"
+						},
+						{
+							"id": 91461,
+							"name": "Телефоны",
+							"slug": "/category/elektronika/telefony"
+						}
+					]
+				},
+				{
+					"id": 198118,
+					"name": "Бытовая техника",
+					"slug": "/category/bytovaya-tehnika",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1750207/img_id4185633253551299083.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 14290574,
+							"name": "Встраиваемая техника",
+							"slug": "/category/bytovaya-tehnika/vstraivaemaya-tehnika"
+						},
+						{
+							"id": 10606704,
+							"name": "Крупная техника для кухни",
+							"slug": "/category/bytovaya-tehnika/krupnaya-tehnika-dlya-kuhni"
+						},
+						{
+							"id": 922553,
+							"name": "Техника для красоты",
+							"slug": "/category/bytovaya-tehnika/tehnika-dlya-krasoty"
+						},
+						{
+							"id": 90563,
+							"name": "Техника для дома",
+							"slug": "/category/bytovaya-tehnika/tehnika-dlya-doma"
+						},
+						{
+							"id": 90574,
+							"name": "Климатическая техника",
+							"slug": "/category/bytovaya-tehnika/klimaticheskaya-tehnika"
+						}
+					]
+				},
+				{
+					"id": 91763,
+					"name": "Оборудование",
+					"slug": "/category/oborudovanie",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4785755/img_id5369126560720189233.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 12910230,
+							"name": "Предупредительные наклейки",
+							"slug": "/category/oborudovanie/predupreditelnye-nakleyki"
+						},
+						{
+							"id": 3465066,
+							"name": "Лабораторное оборудование",
+							"slug": "/category/oborudovanie/laboratornoe-oborudovanie"
+						},
+						{
+							"id": 904381,
+							"name": "Рекламные конструкции и материалы",
+							"slug": "/category/oborudovanie/reklamnye-konstrukcii-i-materialy"
+						},
+						{
+							"id": 91775,
+							"name": "Информационные табло",
+							"slug": "/category/oborudovanie/informacionnye-tablo"
+						},
+						{
+							"id": 14716484,
+							"name": "Пищевое оборудование",
+							"slug": "/category/oborudovanie/pishchevoe-oborudovanie"
+						}
+					]
+				},
+				{
+					"id": 91597,
+					"name": "Строительство и ремонт",
+					"slug": "/category/stroitelstvo-i-remont",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4407413/img_id4066981770029746180.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 16207941,
+							"name": "Водоснабжение",
+							"slug": "/category/stroitelstvo-i-remont/vodosnabjenie"
+						},
+						{
+							"id": 12333788,
+							"name": "Двери окна и скобяные изделия",
+							"slug": "/category/stroitelstvo-i-remont/dveri-okna-i-skobyanye-izdeliya"
+						},
+						{
+							"id": 1618974,
+							"name": "Инструменты",
+							"slug": "/category/stroitelstvo-i-remont/instrumenty"
+						},
+						{
+							"id": 1618979,
+							"name": "Материалы",
+							"slug": "/category/stroitelstvo-i-remont/materialy"
+						},
+						{
+							"id": 91697,
+							"name": "Электрика",
+							"slug": "/category/stroitelstvo-i-remont/elektrika"
+						}
+					]
+				},
+				{
+					"id": 91512,
+					"name": "Спорт и отдых",
+					"slug": "/category/sport-i-otdyh",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1332324/img_id3145240048559996947.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 294675,
+							"name": "Спортивная защита",
+							"slug": "/category/sport-i-otdyh/sportivnaya-zashchita"
+						},
+						{
+							"id": 18024136,
+							"name": "Стрелковый спорт",
+							"slug": "/category/sport-i-otdyh/strelkovyy-sport"
+						},
+						{
+							"id": 15142485,
+							"name": "Моноколеса и гироскутеры",
+							"slug": "/category/sport-i-otdyh/monokolesa-i-giroskutery"
+						},
+						{
+							"id": 13088574,
+							"name": "Самокаты",
+							"slug": "/category/sport-i-otdyh/samokaty"
+						},
+						{
+							"id": 10616674,
+							"name": "Экстремальные виды спорта",
+							"slug": "/category/sport-i-otdyh/ekstremalnye-vidy-sporta"
+						}
+					]
+				},
+				{
+					"id": 91307,
+					"name": "Продукты",
+					"slug": "/category/produkty",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1525999/img_id1023625005017596731.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 15756484,
+							"name": "Кулинария",
+							"slug": "/category/produkty/kulinariya"
+						},
+						{
+							"id": 15720526,
+							"name": "Замороженные продукты",
+							"slug": "/category/produkty/zamorojennye-produkty"
+						},
+						{
+							"id": 15719792,
+							"name": "Все для выпечки",
+							"slug": "/category/produkty/vse-dlya-vypechki"
+						},
+						{
+							"id": 12252125,
+							"name": "Мясная гастрономия",
+							"slug": "/category/produkty/myasnaya-gastronomiya"
+						},
+						{
+							"id": 91424,
+							"name": "Диетическое и лечебное питание",
+							"slug": "/category/produkty/dieticheskoe-i-lechebnoe-pitanie"
+						}
+					]
+				},
+				{
+					"id": 90801,
+					"name": "Досуг и развлечения",
+					"slug": "/category/dosug-i-razvlecheniya",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4493022/img_id3523072750933541833.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 17940630,
+							"name": "Онлайнподписки и карты оплаты",
+							"slug": "/category/dosug-i-razvlecheniya/onlayn-podpiski-i-karty-oplaty"
+						},
+						{
+							"id": 17728967,
+							"name": "Видеофильмы",
+							"slug": "/category/dosug-i-razvlecheniya/videofilmy"
+						},
+						{
+							"id": 17725598,
+							"name": "Музыка",
+							"slug": "/category/dosug-i-razvlecheniya/muzyka"
+						},
+						{
+							"id": 14312405,
+							"name": "Гадания и предсказания",
+							"slug": "/category/dosug-i-razvlecheniya/gadaniya-i-predskazaniya"
+						},
+						{
+							"id": 6101499,
+							"name": "Нумизматика и филателия",
+							"slug": "/category/dosug-i-razvlecheniya/numizmatika-i-filateliya"
+						}
+					]
+				},
+				{
+					"id": 90813,
+					"name": "Товары для животных",
+					"slug": "/category/tovary-dlya-jivotnyh",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4367383/img_id3765146337936004285.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 19188950,
+							"name": "Комбикорма",
+							"slug": "/category/tovary-dlya-jivotnyh/kombikorma"
+						},
+						{
+							"id": 16454108,
+							"name": "Клетки и домики для грызунов",
+							"slug": "/category/tovary-dlya-jivotnyh/kletki-i-domiki-dlya-gryzunov"
+						},
+						{
+							"id": 16261059,
+							"name": "Поилки и кормушки для грызунов хорьков и кроликов",
+							"slug": "/category/tovary-dlya-jivotnyh/poilki-i-kormushki-dlya-gryzunov-horkov-i-krolikov"
+						},
+						{
+							"id": 16142518,
+							"name": "Клетки для птиц",
+							"slug": "/category/tovary-dlya-jivotnyh/kletki-dlya-ptic"
+						},
+						{
+							"id": 16106792,
+							"name": "Игрушки и декор для птиц",
+							"slug": "/category/tovary-dlya-jivotnyh/igrushki-i-dekor-dlya-ptic"
+						}
+					]
+				},
+				{
+					"id": 91009,
+					"name": "Компьютерная техника",
+					"slug": "/category/kompyuternaya-tehnika",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1865543/img_id2508564806173847662.png/9",
+					"parentcategory": [
+						{
+							"id": 91082,
+							"name": "Источники бесперебойного питания",
+							"slug": "/category/kompyuternaya-tehnika/istochniki-bespereboynogo-pitaniya"
+						},
+						{
+							"id": 14421626,
+							"name": "Организация рабочего места",
+							"slug": "/category/kompyuternaya-tehnika/organizaciya-rabochego-mesta"
+						},
+						{
+							"id": 10604359,
+							"name": "Компьютеры",
+							"slug": "/category/kompyuternaya-tehnika/kompyutery"
+						},
+						{
+							"id": 10604368,
+							"name": "Оргтехника",
+							"slug": "/category/kompyuternaya-tehnika/orgtehnika"
+						},
+						{
+							"id": 10604398,
+							"name": "Периферийные устройства",
+							"slug": "/category/kompyuternaya-tehnika/periferiynye-ustroystva"
+						}
+					]
+				},
+				{
+					"id": 90764,
+					"name": "Детские товары",
+					"slug": "/category/detskie-tovary",
+					"image": "https://avatars.mds.yandex.net/get-mpic/5214322/img_id7257184578315013372.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 13491296,
+							"name": "Детский спорт",
+							"slug": "/category/detskie-tovary/detskiy-sport"
+						},
+						{
+							"id": 10790728,
+							"name": "Товары для школы",
+							"slug": "/category/detskie-tovary/tovary-dlya-shkoly"
+						},
+						{
+							"id": 90748,
+							"name": "Хобби и творчество",
+							"slug": "/category/detskie-tovary/hobbi-i-tvorchestvo"
+						},
+						{
+							"id": 90783,
+							"name": "Игрушки и игры",
+							"slug": "/category/detskie-tovary/igrushki-i-igry"
+						},
+						{
+							"id": 90795,
+							"name": "Товары для мам и малышей",
+							"slug": "/category/detskie-tovary/tovary-dlya-mam-i-malyshey"
+						}
+					]
+				},
+				{
+					"id": 90719,
+					"name": "Дача сад и огород",
+					"slug": "/category/dacha-sad-i-ogorod",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4303817/img_id5017110082466452731.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 13870546,
+							"name": "Души и умывальники",
+							"slug": "/category/dacha-sad-i-ogorod/dushi-i-umyvalniki"
+						},
+						{
+							"id": 13793828,
+							"name": "Семена и саженцы",
+							"slug": "/category/dacha-sad-i-ogorod/semena-i-sajency"
+						},
+						{
+							"id": 13792950,
+							"name": "Садовый инвентарь и инструменты",
+							"slug": "/category/dacha-sad-i-ogorod/sadovyy-inventar-i-instrumenty"
+						},
+						{
+							"id": 13793701,
+							"name": "Удобрения и уход за растениями",
+							"slug": "/category/dacha-sad-i-ogorod/udobreniya-i-uhod-za-rasteniyami"
+						},
+						{
+							"id": 13792607,
+							"name": "Парники и теплицы",
+							"slug": "/category/dacha-sad-i-ogorod/parniki-i-teplicy"
+						}
+					]
+				},
+				{
+					"id": 90666,
+					"name": "Товары для дома",
+					"slug": "/category/tovary-dlya-doma",
+					"image": "https://avatars.mds.yandex.net/get-mpic/4355034/img_id6292795108656158664.png/9",
+					"parentcategory": [
+						{
+							"id": 10607801,
+							"name": "Хозяйственные товары",
+							"slug": "/category/tovary-dlya-doma/hozyaystvennye-tovary"
+						},
+						{
+							"id": 7774309,
+							"name": "Товары для праздников",
+							"slug": "/category/tovary-dlya-doma/tovary-dlya-prazdnikov"
+						},
+						{
+							"id": 6179129,
+							"name": "Мебель",
+							"slug": "/category/tovary-dlya-doma/mebel"
+						},
+						{
+							"id": 90692,
+							"name": "Посуда и кухонные принадлежности",
+							"slug": "/category/tovary-dlya-doma/posuda-i-kuhonnye-prinadlejnosti"
+						},
+						{
+							"id": 90708,
+							"name": "Освещение",
+							"slug": "/category/tovary-dlya-doma/osveshchenie"
+						}
+					]
+				},
+				{
+					"id": 90509,
+					"name": "Товары для красоты",
+					"slug": "/category/tovary-dlya-krasoty",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1525999/img_id6413933956444200650.png/9",
+					"parentcategory": [
+						{
+							"id": 91157,
+							"name": "Косметика парфюмерия и уход",
+							"slug": "/category/tovary-dlya-krasoty/kosmetika-parfyumeriya-i-uhod"
+						},
+						{
+							"id": 91172,
+							"name": "Средства и предметы гигиены",
+							"slug": "/category/tovary-dlya-krasoty/sredstva-i-predmety-gigieny"
+						},
+						{
+							"id": 10562873,
+							"name": "Техника для красоты и здоровья",
+							"slug": "/category/tovary-dlya-krasoty/tehnika-dlya-krasoty-i-zdorovya"
+						}
+					]
+				},
+				{
+					"id": 90402,
+					"name": "Авто",
+					"slug": "/category/avto",
+					"image": "https://avatars.mds.yandex.net/get-mpic/1707869/img_id3880733214504557619.jpeg/9",
+					"parentcategory": [
+						{
+							"id": 13199877,
+							"name": "Автомобильные инструменты",
+							"slug": "/category/avto/avtomobilnye-instrumenty"
+						},
+						{
+							"id": 10613523,
+							"name": "Электроника",
+							"slug": "/category/avto/elektronika"
+						},
+						{
+							"id": 10613544,
+							"name": "Шины и диски",
+							"slug": "/category/avto/shiny-i-diski"
+						},
+						{
+							"id": 90506,
+							"name": "Спецтехника",
+							"slug": "/category/avto/spectehnika"
+						},
+						{
+							"id": 90497,
+							"name": "Мототехника",
+							"slug": "/category/avto/mototehnika"
+						}
+					]
+				}
+			],
 		mobileMenu: [
 			{
-				id: 1,
-				path: "/",
-				label: "menu-demos",
-				subMenu: [
+				"id": 7877999,
+				"name": "Одежда обувь и аксессуары",
+				"slug": "/category/odejda-obuv-i-aksessuary",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4353087/img_id2986315233125047087.jpeg/9",
+				"parentcategory": [
 					{
-						id: 1,
-						path: "/",
-						label: "menu-modern",
+						"id": 7812191,
+						"name": "Обувь",
+						"slug": "/category/odejda-obuv-i-aksessuary/obuv"
 					},
 					{
-						id: 2,
-						path: "/standard",
-						label: "menu-standard",
+						"id": 7811873,
+						"name": "Женская одежда",
+						"slug": "/category/odejda-obuv-i-aksessuary/jenskaya-odejda"
 					},
 					{
-						id: 3,
-						path: "/minimal",
-						label: "menu-minimal",
+						"id": 7811877,
+						"name": "Мужская одежда",
+						"slug": "/category/odejda-obuv-i-aksessuary/mujskaya-odejda"
 					},
 					{
-						id: 4,
-						path: "/vintage",
-						label: "menu-vintage",
+						"id": 7811879,
+						"name": "Детская одежда",
+						"slug": "/category/odejda-obuv-i-aksessuary/detskaya-odejda"
 					},
 					{
-						id: 5,
-						path: "/classic",
-						label: "menu-classic",
-					},
-				],
+						"id": 7811881,
+						"name": "Аксессуары",
+						"slug": "/category/odejda-obuv-i-aksessuary/aksessuary"
+					}
+				]
 			},
 			{
-				id: 2,
-				path: "/search?q=men-wear",
-				label: "menu-men-wear",
-				subMenu: [
+				"id": 198119,
+				"name": "Электроника",
+				"slug": "/category/elektronika",
+				"image": "https://avatars.mds.yandex.net/get-mpic/2002045/img_id4763639341065916094.jpeg/9",
+				"parentcategory": [
 					{
-						id: 1,
-						path: "/search?q=top-wear",
-						label: "menu-top-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=t-shit-shirtrt",
-								label: "menu-t-shirt",
-							},
-							{
-								id: 2,
-								path: "/search?q=casual-shirts",
-								label: "menu-casual-shirts",
-							},
-							{
-								id: 3,
-								path: "/search?q=formal-shirts",
-								label: "menu-formal-shirts",
-							},
-							{
-								id: 4,
-								path: "/search?q=blazwers-coats",
-								label: "menu-blazwers-coats",
-							},
-							{
-								id: 5,
-								path: "/search?q=suits",
-								label: "menu-suits",
-							},
-							{
-								id: 6,
-								path: "/search?q=jackets",
-								label: "menu-jackets",
-							},
-						],
+						"id": 4976480,
+						"name": "Оптические приборы",
+						"slug": "/category/elektronika/opticheskie-pribory"
 					},
 					{
-						id: 2,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
+						"id": 1558993,
+						"name": "Игровые приставки",
+						"slug": "/category/elektronika/igrovye-pristavki"
 					},
 					{
-						id: 3,
-						path: "/search?q=watches-wearables",
-						label: "menu-watches-wearables",
+						"id": 995785,
+						"name": "GPSнавигация",
+						"slug": "/category/elektronika/gps-navigaciya"
 					},
 					{
-						id: 4,
-						path: "/search?q=western-wear",
-						label: "menu-western-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=dresses",
-								label: "menu-dresses",
-							},
-							{
-								id: 2,
-								path: "/search?q=jumpsuits",
-								label: "menu-jumpsuits",
-							},
-							{
-								id: 3,
-								path: "/search?q=tops-t-shirt",
-								label: "menu-tops-shirts",
-							},
-							{
-								id: 4,
-								path: "/search?q=shorts-skirts",
-								label: "menu-shorts-skirts",
-							},
-							{
-								id: 5,
-								path: "/search?q=shurgs",
-								label: "menu-shurgs",
-							},
-							{
-								id: 6,
-								path: "/search?q=blazers",
-								label: "menu-blazers",
-							},
-						],
+						"id": 944108,
+						"name": "Портативная техника",
+						"slug": "/category/elektronika/portativnaya-tehnika"
 					},
 					{
-						id: 5,
-						path: "/search?q=plus-size",
-						label: "menu-plus-size",
-					},
-					{
-						id: 6,
-						path: "/search?q=sunglasses-frames",
-						label: "menu-sunglasses-frames",
-					},
-					{
-						id: 7,
-						path: "/search?q=footwear",
-						label: "menu-footwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=flats",
-								label: "menu-flats",
-							},
-							{
-								id: 2,
-								path: "/search?q=casual-shoes",
-								label: "menu-casual-shoes",
-							},
-							{
-								id: 3,
-								path: "/search?q=heels",
-								label: "menu-heels",
-							},
-							{
-								id: 4,
-								path: "/search?q=boots",
-								label: "menu-boots",
-							},
-						],
-					},
-					{
-						id: 8,
-						path: "/search?q=sports-active-wear",
-						label: "menu-sports-active-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=clothing",
-								label: "menu-clothing",
-							},
-							{
-								id: 2,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-							},
-							{
-								id: 3,
-								path: "/search?q=sports-accessories",
-								label: "menu-sports-accessories",
-							},
-						],
-					},
-					{
-						id: 9,
-						path: "/search?q=lingerie-sleepwear",
-						label: "menu-lingerie-sleepwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=bra",
-								label: "menu-bra",
-							},
-							{
-								id: 2,
-								path: "/search?q=briefs",
-								label: "menu-briefs",
-							},
-							{
-								id: 3,
-								path: "/search?q=sleepwear",
-								label: "menu-sleepwear",
-							},
-						],
-					},
-					{
-						id: 10,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=makeup",
-								label: "menu-makeup",
-							},
-							{
-								id: 2,
-								path: "/search?q=skincare",
-								label: "menu-skincare",
-							},
-							{
-								id: 3,
-								path: "/search?q=premium-beauty",
-								label: "menu-premium-beauty",
-							},
-							{
-								id: 4,
-								path: "/search?q=lipsticks",
-								label: "menu-lipsticks",
-							},
-						],
-					},
-					{
-						id: 11,
-						path: "/search?q=gadgets",
-						label: "menu-gadgets",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=smart-wearables",
-								label: "menu-smart-wearables",
-							},
-							{
-								id: 2,
-								path: "/search?q=headphones",
-								label: "menu-headphones",
-							},
-						],
-					},
-					{
-						id: 12,
-						path: "/search?q=jewellers",
-						label: "menu-jewellers",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=fashion-jewellers",
-								label: "menu-fashion-jewellers",
-							},
-							{
-								id: 2,
-								path: "/search?q=fine-jewellers",
-								label: "menu-fine-jewellers",
-							},
-						],
-					},
-					{
-						id: 13,
-						path: "/search?q=backpacks",
-						label: "menu-backpacks",
-					},
-					{
-						id: 14,
-						path: "/search?q=handbags-wallets",
-						label: "menu-handbags-wallets",
-					},
-				],
+						"id": 91461,
+						"name": "Телефоны",
+						"slug": "/category/elektronika/telefony"
+					}
+				]
 			},
 			{
-				id: 3,
-				path: "/search?q=women-wear",
-				label: "menu-women-wear",
+				"id": 198118,
+				"name": "Бытовая техника",
+				"slug": "/category/bytovaya-tehnika",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1750207/img_id4185633253551299083.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 14290574,
+						"name": "Встраиваемая техника",
+						"slug": "/category/bytovaya-tehnika/vstraivaemaya-tehnika"
+					},
+					{
+						"id": 10606704,
+						"name": "Крупная техника для кухни",
+						"slug": "/category/bytovaya-tehnika/krupnaya-tehnika-dlya-kuhni"
+					},
+					{
+						"id": 922553,
+						"name": "Техника для красоты",
+						"slug": "/category/bytovaya-tehnika/tehnika-dlya-krasoty"
+					},
+					{
+						"id": 90563,
+						"name": "Техника для дома",
+						"slug": "/category/bytovaya-tehnika/tehnika-dlya-doma"
+					},
+					{
+						"id": 90574,
+						"name": "Климатическая техника",
+						"slug": "/category/bytovaya-tehnika/klimaticheskaya-tehnika"
+					}
+				]
 			},
 			{
-				id: 4,
-				path: "/search?q=casual-wear",
-				label: "menu-casual-wear",
-				subMenu: [
+				"id": 91763,
+				"name": "Оборудование",
+				"slug": "/category/oborudovanie",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4785755/img_id5369126560720189233.jpeg/9",
+				"parentcategory": [
 					{
-						id: 1,
-						path: "/search?q=top-wear",
-						label: "menu-top-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=t-shit-shirtrt",
-								label: "menu-t-shirt",
-							},
-							{
-								id: 2,
-								path: "/search?q=casual-shirts",
-								label: "menu-casual-shirts",
-							},
-							{
-								id: 3,
-								path: "/search?q=formal-shirts",
-								label: "menu-formal-shirts",
-							},
-							{
-								id: 4,
-								path: "/search?q=blazwers-coats",
-								label: "menu-blazwers-coats",
-							},
-							{
-								id: 5,
-								path: "/search?q=suits",
-								label: "menu-suits",
-							},
-							{
-								id: 6,
-								path: "/search?q=jackets",
-								label: "menu-jackets",
-							},
-						],
+						"id": 12910230,
+						"name": "Предупредительные наклейки",
+						"slug": "/category/oborudovanie/predupreditelnye-nakleyki"
 					},
 					{
-						id: 2,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
+						"id": 3465066,
+						"name": "Лабораторное оборудование",
+						"slug": "/category/oborudovanie/laboratornoe-oborudovanie"
 					},
 					{
-						id: 3,
-						path: "/search?q=watches-wearables",
-						label: "menu-watches-wearables",
+						"id": 904381,
+						"name": "Рекламные конструкции и материалы",
+						"slug": "/category/oborudovanie/reklamnye-konstrukcii-i-materialy"
 					},
 					{
-						id: 4,
-						path: "/search?q=western-wear",
-						label: "menu-western-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=dresses",
-								label: "menu-dresses",
-							},
-							{
-								id: 2,
-								path: "/search?q=jumpsuits",
-								label: "menu-jumpsuits",
-							},
-							{
-								id: 3,
-								path: "/search?q=tops-t-shirt",
-								label: "menu-tops-shirts",
-							},
-							{
-								id: 4,
-								path: "/search?q=shorts-skirts",
-								label: "menu-shorts-skirts",
-							},
-							{
-								id: 5,
-								path: "/search?q=shurgs",
-								label: "menu-shurgs",
-							},
-							{
-								id: 6,
-								path: "/search?q=blazers",
-								label: "menu-blazers",
-							},
-						],
+						"id": 91775,
+						"name": "Информационные табло",
+						"slug": "/category/oborudovanie/informacionnye-tablo"
 					},
 					{
-						id: 5,
-						path: "/search?q=plus-size",
-						label: "menu-plus-size",
-					},
-					{
-						id: 6,
-						path: "/search?q=sunglasses-frames",
-						label: "menu-sunglasses-frames",
-					},
-					{
-						id: 7,
-						path: "/search?q=footwear",
-						label: "menu-footwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=flats",
-								label: "menu-flats",
-							},
-							{
-								id: 2,
-								path: "/search?q=casual-shoes",
-								label: "menu-casual-shoes",
-							},
-							{
-								id: 3,
-								path: "/search?q=heels",
-								label: "menu-heels",
-							},
-							{
-								id: 4,
-								path: "/search?q=boots",
-								label: "menu-boots",
-							},
-						],
-					},
-					{
-						id: 8,
-						path: "/search?q=sports-active-wear",
-						label: "menu-sports-active-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=clothing",
-								label: "menu-clothing",
-							},
-							{
-								id: 2,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-							},
-							{
-								id: 3,
-								path: "/search?q=sports-accessories",
-								label: "menu-sports-accessories",
-							},
-						],
-					},
-					{
-						id: 9,
-						path: "/search?q=lingerie-sleepwear",
-						label: "menu-lingerie-sleepwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=bra",
-								label: "menu-bra",
-							},
-							{
-								id: 2,
-								path: "/search?q=briefs",
-								label: "menu-briefs",
-							},
-							{
-								id: 3,
-								path: "/search?q=sleepwear",
-								label: "menu-sleepwear",
-							},
-						],
-					},
-					{
-						id: 10,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=makeup",
-								label: "menu-makeup",
-							},
-							{
-								id: 2,
-								path: "/search?q=skincare",
-								label: "menu-skincare",
-							},
-							{
-								id: 3,
-								path: "/search?q=premium-beauty",
-								label: "menu-premium-beauty",
-							},
-							{
-								id: 4,
-								path: "/search?q=lipsticks",
-								label: "menu-lipsticks",
-							},
-						],
-					},
-					{
-						id: 11,
-						path: "/search?q=gadgets",
-						label: "menu-gadgets",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=smart-wearables",
-								label: "menu-smart-wearables",
-							},
-							{
-								id: 2,
-								path: "/search?q=headphones",
-								label: "menu-headphones",
-							},
-						],
-					},
-					{
-						id: 12,
-						path: "/search?q=jewellers",
-						label: "menu-jewellers",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=fashion-jewellers",
-								label: "menu-fashion-jewellers",
-							},
-							{
-								id: 2,
-								path: "/search?q=fine-jewellers",
-								label: "menu-fine-jewellers",
-							},
-						],
-					},
-					{
-						id: 13,
-						path: "/search?q=backpacks",
-						label: "menu-backpacks",
-					},
-					{
-						id: 14,
-						path: "/search?q=handbags-wallets",
-						label: "menu-handbags-wallets",
-					},
-				],
+						"id": 14716484,
+						"name": "Пищевое оборудование",
+						"slug": "/category/oborudovanie/pishchevoe-oborudovanie"
+					}
+				]
 			},
 			{
-				id: 5,
-				path: "/search",
-				label: "menu-search",
+				"id": 91597,
+				"name": "Строительство и ремонт",
+				"slug": "/category/stroitelstvo-i-remont",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4407413/img_id4066981770029746180.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 16207941,
+						"name": "Водоснабжение",
+						"slug": "/category/stroitelstvo-i-remont/vodosnabjenie"
+					},
+					{
+						"id": 12333788,
+						"name": "Двери окна и скобяные изделия",
+						"slug": "/category/stroitelstvo-i-remont/dveri-okna-i-skobyanye-izdeliya"
+					},
+					{
+						"id": 1618974,
+						"name": "Инструменты",
+						"slug": "/category/stroitelstvo-i-remont/instrumenty"
+					},
+					{
+						"id": 1618979,
+						"name": "Материалы",
+						"slug": "/category/stroitelstvo-i-remont/materialy"
+					},
+					{
+						"id": 91697,
+						"name": "Электрика",
+						"slug": "/category/stroitelstvo-i-remont/elektrika"
+					}
+				]
 			},
 			{
-				id: 6,
-				path: "/",
-				label: "menu-pages",
-				subMenu: [
+				"id": 91512,
+				"name": "Спорт и отдых",
+				"slug": "/category/sport-i-otdyh",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1332324/img_id3145240048559996947.jpeg/9",
+				"parentcategory": [
 					{
-						id: 1,
-						path: "/",
-						label: "menu-users",
-						subMenu: [
-							{
-								id: 1,
-								path: "/my-account",
-								label: "menu-my-account",
-							},
-							{
-								id: 2,
-								path: "/signin",
-								label: "menu-sign-in",
-							},
-							{
-								id: 3,
-								path: "/signup",
-								label: "menu-sign-up",
-							},
-							{
-								id: 4,
-								path: "/forget-password",
-								label: "menu-forget-password",
-							},
-						],
+						"id": 294675,
+						"name": "Спортивная защита",
+						"slug": "/category/sport-i-otdyh/sportivnaya-zashchita"
 					},
 					{
-						id: 2,
-						path: "/faq",
-						label: "menu-faq",
+						"id": 18024136,
+						"name": "Стрелковый спорт",
+						"slug": "/category/sport-i-otdyh/strelkovyy-sport"
 					},
 					{
-						id: 3,
-						path: "/privacy",
-						label: "menu-privacy-policy",
+						"id": 15142485,
+						"name": "Моноколеса и гироскутеры",
+						"slug": "/category/sport-i-otdyh/monokolesa-i-giroskutery"
 					},
 					{
-						id: 4,
-						path: "/terms",
-						label: "menu-terms-condition",
+						"id": 13088574,
+						"name": "Самокаты",
+						"slug": "/category/sport-i-otdyh/samokaty"
 					},
 					{
-						id: 5,
-						path: "/contact-us",
-						label: "menu-contact-us",
-					},
-					{
-						id: 6,
-						path: "/checkout",
-						label: "menu-checkout",
-					},
-					{
-						id: 7,
-						path: "/collections/mens-collection",
-						label: "menu-collection",
-					},
-					{
-						id: 8,
-						path: "/category/man",
-						label: "menu-category",
-					},
-					{
-						id: 9,
-						path: "/order",
-						label: "menu-order",
-					},
-					{
-						id: 10,
-						path: "/404",
-						label: "menu-404",
-					},
-				],
+						"id": 10616674,
+						"name": "Экстремальные виды спорта",
+						"slug": "/category/sport-i-otdyh/ekstremalnye-vidy-sporta"
+					}
+				]
 			},
+			{
+				"id": 91307,
+				"name": "Продукты",
+				"slug": "/category/produkty",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1525999/img_id1023625005017596731.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 15756484,
+						"name": "Кулинария",
+						"slug": "/category/produkty/kulinariya"
+					},
+					{
+						"id": 15720526,
+						"name": "Замороженные продукты",
+						"slug": "/category/produkty/zamorojennye-produkty"
+					},
+					{
+						"id": 15719792,
+						"name": "Все для выпечки",
+						"slug": "/category/produkty/vse-dlya-vypechki"
+					},
+					{
+						"id": 12252125,
+						"name": "Мясная гастрономия",
+						"slug": "/category/produkty/myasnaya-gastronomiya"
+					},
+					{
+						"id": 91424,
+						"name": "Диетическое и лечебное питание",
+						"slug": "/category/produkty/dieticheskoe-i-lechebnoe-pitanie"
+					}
+				]
+			},
+			{
+				"id": 90801,
+				"name": "Досуг и развлечения",
+				"slug": "/category/dosug-i-razvlecheniya",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4493022/img_id3523072750933541833.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 17940630,
+						"name": "Онлайнподписки и карты оплаты",
+						"slug": "/category/dosug-i-razvlecheniya/onlayn-podpiski-i-karty-oplaty"
+					},
+					{
+						"id": 17728967,
+						"name": "Видеофильмы",
+						"slug": "/category/dosug-i-razvlecheniya/videofilmy"
+					},
+					{
+						"id": 17725598,
+						"name": "Музыка",
+						"slug": "/category/dosug-i-razvlecheniya/muzyka"
+					},
+					{
+						"id": 14312405,
+						"name": "Гадания и предсказания",
+						"slug": "/category/dosug-i-razvlecheniya/gadaniya-i-predskazaniya"
+					},
+					{
+						"id": 6101499,
+						"name": "Нумизматика и филателия",
+						"slug": "/category/dosug-i-razvlecheniya/numizmatika-i-filateliya"
+					}
+				]
+			},
+			{
+				"id": 90813,
+				"name": "Товары для животных",
+				"slug": "/category/tovary-dlya-jivotnyh",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4367383/img_id3765146337936004285.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 19188950,
+						"name": "Комбикорма",
+						"slug": "/category/tovary-dlya-jivotnyh/kombikorma"
+					},
+					{
+						"id": 16454108,
+						"name": "Клетки и домики для грызунов",
+						"slug": "/category/tovary-dlya-jivotnyh/kletki-i-domiki-dlya-gryzunov"
+					},
+					{
+						"id": 16261059,
+						"name": "Поилки и кормушки для грызунов хорьков и кроликов",
+						"slug": "/category/tovary-dlya-jivotnyh/poilki-i-kormushki-dlya-gryzunov-horkov-i-krolikov"
+					},
+					{
+						"id": 16142518,
+						"name": "Клетки для птиц",
+						"slug": "/category/tovary-dlya-jivotnyh/kletki-dlya-ptic"
+					},
+					{
+						"id": 16106792,
+						"name": "Игрушки и декор для птиц",
+						"slug": "/category/tovary-dlya-jivotnyh/igrushki-i-dekor-dlya-ptic"
+					}
+				]
+			},
+			{
+				"id": 91009,
+				"name": "Компьютерная техника",
+				"slug": "/category/kompyuternaya-tehnika",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1865543/img_id2508564806173847662.png/9",
+				"parentcategory": [
+					{
+						"id": 91082,
+						"name": "Источники бесперебойного питания",
+						"slug": "/category/kompyuternaya-tehnika/istochniki-bespereboynogo-pitaniya"
+					},
+					{
+						"id": 14421626,
+						"name": "Организация рабочего места",
+						"slug": "/category/kompyuternaya-tehnika/organizaciya-rabochego-mesta"
+					},
+					{
+						"id": 10604359,
+						"name": "Компьютеры",
+						"slug": "/category/kompyuternaya-tehnika/kompyutery"
+					},
+					{
+						"id": 10604368,
+						"name": "Оргтехника",
+						"slug": "/category/kompyuternaya-tehnika/orgtehnika"
+					},
+					{
+						"id": 10604398,
+						"name": "Периферийные устройства",
+						"slug": "/category/kompyuternaya-tehnika/periferiynye-ustroystva"
+					}
+				]
+			},
+			{
+				"id": 90764,
+				"name": "Детские товары",
+				"slug": "/category/detskie-tovary",
+				"image": "https://avatars.mds.yandex.net/get-mpic/5214322/img_id7257184578315013372.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 13491296,
+						"name": "Детский спорт",
+						"slug": "/category/detskie-tovary/detskiy-sport"
+					},
+					{
+						"id": 10790728,
+						"name": "Товары для школы",
+						"slug": "/category/detskie-tovary/tovary-dlya-shkoly"
+					},
+					{
+						"id": 90748,
+						"name": "Хобби и творчество",
+						"slug": "/category/detskie-tovary/hobbi-i-tvorchestvo"
+					},
+					{
+						"id": 90783,
+						"name": "Игрушки и игры",
+						"slug": "/category/detskie-tovary/igrushki-i-igry"
+					},
+					{
+						"id": 90795,
+						"name": "Товары для мам и малышей",
+						"slug": "/category/detskie-tovary/tovary-dlya-mam-i-malyshey"
+					}
+				]
+			},
+			{
+				"id": 90719,
+				"name": "Дача сад и огород",
+				"slug": "/category/dacha-sad-i-ogorod",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4303817/img_id5017110082466452731.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 13870546,
+						"name": "Души и умывальники",
+						"slug": "/category/dacha-sad-i-ogorod/dushi-i-umyvalniki"
+					},
+					{
+						"id": 13793828,
+						"name": "Семена и саженцы",
+						"slug": "/category/dacha-sad-i-ogorod/semena-i-sajency"
+					},
+					{
+						"id": 13792950,
+						"name": "Садовый инвентарь и инструменты",
+						"slug": "/category/dacha-sad-i-ogorod/sadovyy-inventar-i-instrumenty"
+					},
+					{
+						"id": 13793701,
+						"name": "Удобрения и уход за растениями",
+						"slug": "/category/dacha-sad-i-ogorod/udobreniya-i-uhod-za-rasteniyami"
+					},
+					{
+						"id": 13792607,
+						"name": "Парники и теплицы",
+						"slug": "/category/dacha-sad-i-ogorod/parniki-i-teplicy"
+					}
+				]
+			},
+			{
+				"id": 90666,
+				"name": "Товары для дома",
+				"slug": "/category/tovary-dlya-doma",
+				"image": "https://avatars.mds.yandex.net/get-mpic/4355034/img_id6292795108656158664.png/9",
+				"parentcategory": [
+					{
+						"id": 10607801,
+						"name": "Хозяйственные товары",
+						"slug": "/category/tovary-dlya-doma/hozyaystvennye-tovary"
+					},
+					{
+						"id": 7774309,
+						"name": "Товары для праздников",
+						"slug": "/category/tovary-dlya-doma/tovary-dlya-prazdnikov"
+					},
+					{
+						"id": 6179129,
+						"name": "Мебель",
+						"slug": "/category/tovary-dlya-doma/mebel"
+					},
+					{
+						"id": 90692,
+						"name": "Посуда и кухонные принадлежности",
+						"slug": "/category/tovary-dlya-doma/posuda-i-kuhonnye-prinadlejnosti"
+					},
+					{
+						"id": 90708,
+						"name": "Освещение",
+						"slug": "/category/tovary-dlya-doma/osveshchenie"
+					}
+				]
+			},
+			{
+				"id": 90509,
+				"name": "Товары для красоты",
+				"slug": "/category/tovary-dlya-krasoty",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1525999/img_id6413933956444200650.png/9",
+				"parentcategory": [
+					{
+						"id": 91157,
+						"name": "Косметика парфюмерия и уход",
+						"slug": "/category/tovary-dlya-krasoty/kosmetika-parfyumeriya-i-uhod"
+					},
+					{
+						"id": 91172,
+						"name": "Средства и предметы гигиены",
+						"slug": "/category/tovary-dlya-krasoty/sredstva-i-predmety-gigieny"
+					},
+					{
+						"id": 10562873,
+						"name": "Техника для красоты и здоровья",
+						"slug": "/category/tovary-dlya-krasoty/tehnika-dlya-krasoty-i-zdorovya"
+					}
+				]
+			},
+			{
+				"id": 90402,
+				"name": "Авто",
+				"slug": "/category/avto",
+				"image": "https://avatars.mds.yandex.net/get-mpic/1707869/img_id3880733214504557619.jpeg/9",
+				"parentcategory": [
+					{
+						"id": 13199877,
+						"name": "Автомобильные инструменты",
+						"slug": "/category/avto/avtomobilnye-instrumenty"
+					},
+					{
+						"id": 10613523,
+						"name": "Электроника",
+						"slug": "/category/avto/elektronika"
+					},
+					{
+						"id": 10613544,
+						"name": "Шины и диски",
+						"slug": "/category/avto/shiny-i-diski"
+					},
+					{
+						"id": 90506,
+						"name": "Спецтехника",
+						"slug": "/category/avto/spectehnika"
+					},
+					{
+						"id": 90497,
+						"name": "Мототехника",
+						"slug": "/category/avto/mototehnika"
+					}
+				]
+			}
 		],
 		languageMenu: [
 			{

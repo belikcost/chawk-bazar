@@ -72,41 +72,40 @@ export default function MobileMenu() {
 		menuName,
 		menuIndex,
 		className = "",
-	}: any) =>
-		data.label && (
-			<li className={`mb-0.5 ${className}`}>
-				<div className="flex items-center justify-between">
-					<Link
-						href={data.path}
-						className="w-full text-[15px] menu-item relative py-3 ps-5 md:ps-7 pe-4 transition duration-300 ease-in-out"
-					>
+	}: any) => (
+		<li className={`mb-0.5 ${className}`}>
+			<div className="flex items-center justify-between">
+				<Link
+					href={data.slug}
+					className="w-full text-[15px] menu-item relative py-3 ps-5 md:ps-7 pe-4 transition duration-300 ease-in-out"
+				>
 						<span className="block w-full" onClick={closeSidebar}>
-							{t(`${data.label}`)}
+							{data.name}
 						</span>
-					</Link>
-					{hasSubMenu && (
-						<div
-							className="cursor-pointer w-16 md:w-20 h-8 text-lg flex-shrink-0 flex items-center justify-center"
-							onClick={() => handleArrowClick(menuName)}
-						>
-							<IoIosArrowDown
-								className={`transition duration-200 ease-in-out transform text-heading ${
-									activeMenus.includes(menuName) ? "-rotate-180" : "rotate-0"
-								}`}
-							/>
-						</div>
-					)}
-				</div>
+				</Link>
 				{hasSubMenu && (
-					<SubMenu
-						dept={dept}
-						data={data.subMenu}
-						toggle={activeMenus.includes(menuName)}
-						menuIndex={menuIndex}
-					/>
+					<div
+						className="cursor-pointer w-16 md:w-20 h-8 text-lg flex-shrink-0 flex items-center justify-center"
+						onClick={() => handleArrowClick(menuName)}
+					>
+						<IoIosArrowDown
+							className={`transition duration-200 ease-in-out transform text-heading ${
+								activeMenus.includes(menuName) ? "-rotate-180" : "rotate-0"
+							}`}
+						/>
+					</div>
 				)}
-			</li>
-		);
+			</div>
+			{hasSubMenu && (
+				<SubMenu
+					dept={dept}
+					data={data.parentcategory}
+					toggle={activeMenus.includes(menuName)}
+					menuIndex={menuIndex}
+				/>
+			)}
+		</li>
+	);
 
 	const SubMenu = ({ dept, data, toggle, menuIndex }: any) => {
 		if (!toggle) {
@@ -162,9 +161,9 @@ export default function MobileMenu() {
 									<ListMenu
 										dept={dept}
 										data={menu}
-										hasSubMenu={menu.subMenu}
 										menuName={menuName}
-										key={menuName}
+										hasSubMenu={true}
+										key={menu.id}
 										menuIndex={index}
 									/>
 								);
